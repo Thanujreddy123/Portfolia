@@ -401,3 +401,17 @@ color: var(--main-color);
     fill: #ffae00;
     margin-right: 10px;
 }
+@media(max-width: 1850px) {
+    header{
+        padding:15px 8%;
+        transition: 2s;
+    }
+    section{
+        padding:0 8%;
+        transform: 2s;
+    }
+    .share{
+        left:8%;
+        transition: 2s ;
+    }
+}
