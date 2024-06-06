@@ -415,3 +415,16 @@ color: var(--main-color);
         transition: 2s ;
     }
 }
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px (e.g., tablets and mobile phones) */
+    header {
+        padding: 15px 8%;
+    }
+    section {
+        padding: 0 8%;
+    }
+    .share {
+        left: 8%;
+    }
+    /* Add more styles as needed */
+}
